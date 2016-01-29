@@ -20,7 +20,7 @@ if (!$conn)
 }
    echo  'Could connect! ';
 mysql_select_db("app_shilijundiyigephp");
-$sql ='select id,concent';
+$sql ='select id,concent from text';
 $result = mysql_query($sql);
 while($row=mysql_fetch_array(result,MYSQL_ASSOC））
 {
