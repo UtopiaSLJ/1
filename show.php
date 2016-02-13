@@ -10,41 +10,19 @@ $password=SAE_MYSQL_PASS；
 
 
 <html>
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 <body>
-
-
-
 <h1>留言本</h1>
 
-
-<a href="show.php">首页</a> | <a href="liuyan.php">留言</a>
-
-
-
+<a href="zhuye.php">主页</a> | <a href="liuyan.php">继续留言</a>
 <p>
-
 <?
-
 while($row=mysql_fetch_array($resule))
-
 {
-
 ?>
-
 留言内容:<? echo $row[content] ?>
-
-
-
-
 <?
-
 }
-
 ?>
-
 </body>
-
 </html>
