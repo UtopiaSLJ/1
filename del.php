@@ -9,4 +9,4 @@ $password=SAE_MYSQL_PASS;
   $result = mysql_query($sql,$conn);
   mysql_close($conn); 
 ?>
-<p><a href="show.php">[返回]</a></p>
+
