@@ -24,7 +24,7 @@ if(isset($_POST['user'])&&isset($_POST['password']))
     <form  name="form1"action="login.php" method="post">
              
              管理名： <input type="text" name="user" size=15><br>
-             密码：< <input type="password" name="password" size=15><br>
+             密码：<input type="password" name="password" size=15><br>
                         
               <input type="submit" value="提交">
 
