@@ -5,8 +5,10 @@ if(isset($_POST['user'])&&isset($_POST['password']))
 {$user=$_POST['user'];
  $password=$_POST['password'];
  $password=md5($passwod);
+ 
  if($user !=$AUTH['user']||$password !=$AUTH['PASSWORD'])
 {echo'<strong><font >用户名或密码错误；';}
+ 
  else{
      $_SESSION['user']=$user;
      header("loation:guanli.php");
