@@ -1,3 +1,4 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <php?
  include("conn.php")
   $sql ='select* from message' ORDER BY 'id' DESC"; 
@@ -9,7 +10,7 @@
 
 <body>
 <h1>留言本</h1>
-<a href="zhuye.php">zhuye</a> | <a href="liuyan.php">liuyan</a>
+<a href="zhuye.php">主页</a> | <a href="liuyan.php">去添加留言</a>
 <p>
 
 留言内容:<php? echo $row[content]; ?><tr>
