@@ -1,4 +1,4 @@
-<?php
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><?php
 inclde'login_auth.php';
 session_start();
 if(isset($_POST['user'])&&isset($_POST['password']))
