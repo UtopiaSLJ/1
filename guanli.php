@@ -1,3 +1,4 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <php?
  include("conn.php")
   $sql ='select* from message' ORDER BY 'id' DESC"; 
